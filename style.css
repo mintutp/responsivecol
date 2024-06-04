@@ -1,0 +1,165 @@
+.nav-link active a{
+    color: #ff0404; /* Default color */
+  }
+.banner-container {
+  margin-left: 75px;
+  position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-image: url('https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/en-gb/home/home-hero-father-son-grass-uk.jpg.rendition.1350.735.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+
+.banner-text{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+  .banner-container h1{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 800px;
+    
+    
+  }
+  .banner-container p{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 800px;
+    
+  }
+  .banner-image{
+    width: 100%;
+    height: 650px;
+  }
+  .center-divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-div {
+    width: 100%;
+    height: 850px;
+    padding: 20px;
+
+  }
+  .custom-div:nth-child(odd) {
+    background-image: url('https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/en-us/general/home/tile-man-smiling.jpg.rendition.480.738.jpg'); /* Adjust path to your image */
+    background-size: cover;
+
+  }
+
+  .custom-div:nth-child(even) {
+    
+    background-size: cover;
+   
+  }
+  .custom-btn {
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    background-color: white;
+    color: #ff0404;
+    border-color: white;
+    
+  }
+  h2{
+    color: #d2010d;
+  }
+  h4{
+    color: #ffffff;
+  }
+  .col-md-6{
+    position: relative;
+  }
+  .left-pic{
+    position: absolute;
+    top: 600px;
+    left: 70px;
+  }
+  .box{
+    height: 500px;
+    width: 100%;
+   
+    
+  }
+  .col-md-8{
+    position: relative;
+    padding-right: 5px;
+    height: 500px;
+    background-image: url('https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/global/sub-brand-pages/colgate-total/colgate-total-hero.jpg.rendition.1830.966.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+  .col-md-4{
+    height: 500px;
+    background-image: url('https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/global/sub-brand-pages/kids/colgate-kids-hero.jpg.rendition.1350.735.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  }
+.left-text {
+  margin-left: 130px;
+  margin-top: 180px;
+}
+.col-md-8 img{
+  position: absolute;
+  top: 150px;
+  left: 420px;
+}
+.card{
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  
+
+}
+.card-img-top{
+  height: 150px;
+  width: 150px;
+}
+
+
+.card img{
+  height: 200px;
+}
+.last-banner{
+  margin-top: 100px;
+  height: 500px;
+  background-image: url('https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/general/banners/contactus.png.rendition.1268.519.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 40px;
+}
+.lb-text{
+  margin-top: 250px;
+  margin-left: 70px;
+}
+.footer {
+  
+  margin-top: 100px;
+  background-color: #333;
+  color: #fff;
+  height: 300px;
+  line-height: 60px;
+  padding: 20px 0;
+  
+}
+.col-md-3 a{
+  
+  color: #ffffff;
+  text-decoration: none;
+}
+.col-md-3 a:hover{
+  color:#22838a;
+}
+.fa-facebook,.fa-twitter,.fa-youtube{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 25px;
+}
